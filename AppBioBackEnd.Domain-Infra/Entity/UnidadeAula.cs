@@ -6,11 +6,13 @@ namespace AppBioBackEnd.Domain.Entity
     {
         public int IdUnidade { get; set; }
         public int IdAula { get; set; }
+        public int IdAluno { get; set; }
         public DateTime DataAula { get; set; }
         public string DiaSemanaAula { get; set; }
         public string HoraAula { get; set; }
 
         public virtual Aula Aula { get; set; }
         public virtual Unidade Unidade { get; set; }
+        public virtual Aluno Aluno { get; set; }
     }
 }

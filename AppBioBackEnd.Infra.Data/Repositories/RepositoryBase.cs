@@ -36,9 +36,19 @@ namespace AppBioBackEnd.Infra.Data.Repositories
             return db.Set<TEntity>().Find(id);
         }
 
+        public void Remove(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public void Remove(TEntity obj)
         {
             db.Set<TEntity>().Remove(obj);
+        }
+
+        public void Update(int id)
+        {
+            throw new NotImplementedException();
         }
 
         public void Update(TEntity obj)
