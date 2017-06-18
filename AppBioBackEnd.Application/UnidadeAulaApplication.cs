@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using AppBioBackEnd.Application.Interfaces;
 using AppBioBackEnd.Domain.Entity;
 using AppBioBackEnd.Services.Interfaces;
